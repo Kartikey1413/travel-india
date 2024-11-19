@@ -62,7 +62,7 @@ const Login = () => {
         <div className="hidden md:block">
           <img
             src={LoginImg}
-            alt="Trips Travels Logo"
+            alt="Travel India Logo"
             className="mx-auto h-full object-cover"
           />
         </div>
