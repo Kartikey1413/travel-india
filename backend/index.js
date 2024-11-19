@@ -30,7 +30,7 @@ app.use(
     origin: function (origin, callback) {
       console.log("Request from origin:", origin); // Log origin for debugging
       if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
+        callback(no-cors, true);
       } else {
         callback(new Error("Not allowed by CORS"));
       }
