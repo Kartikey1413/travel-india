@@ -27,7 +27,9 @@ mongoose
 // ];
 app.use(
   cors({
-    origin:"https://travel-india-alpha.vercel.app/"
+    origin:"https://travel-india-alpha.vercel.app/",
+    methods: 'GET,POST', // Allow only these methods
+    allowedHeaders: ['Content-Type', 'Authorization']
     
     // function (origin, callback) {
     //   console.log("Request from origin:", origin); // Log origin for debugging
